@@ -1,0 +1,6 @@
+map 2d
+     /model/blender_export/rst_steel_hw5/textures/empty.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+bias 2

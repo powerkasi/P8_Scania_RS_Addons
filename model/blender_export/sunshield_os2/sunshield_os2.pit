@@ -1,0 +1,178 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "sunshield_os2"
+}
+Global {
+     LookCount: 1
+     VariantCount: 1
+     PartCount: 1
+     MaterialCount: 4
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_P8_sunshield"
+          Effect: "eut2.truckpaint.airbrush.altuv"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "aux[8]"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.300000 0.300000 0.300000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 250.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.194176 1.194176 1.194176 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sunshield_os2/textures/P8_sunshield"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+          Texture {
+               Tag: "texture[2]:texture_paintjob"
+               Value: "/model/blender_export/sunshield_os2/textures/empty"
+          }
+     }
+     Material {
+          Alias: "mat_0001"
+          Effect: "eut2.shadowonly"
+          Flags: 0
+          AttributeCount: 1
+          TextureCount: 0
+          Attribute {
+               Format: FLOAT
+               Tag: "shadow_bias"
+               Value: ( 0.000000 )
+          }
+     }
+     Material {
+          Alias: "mat_0002_sunshield_01"
+          Effect: "eut2.lamp.add.env"
+          Flags: 0
+          AttributeCount: 6
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.650000 0.650000 0.650000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 90.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 0.700000 0.700000 0.700000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sunshield_os2/textures/sunshield_01"
+          }
+          Texture {
+               Tag: "texture[1]:texture_mask"
+               Value: "/model/blender_export/sunshield_os2/textures/sunshield_11_mask"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0003_sunshield_01"
+          Effect: "eut2.dif.spec"
+          Flags: 0
+          AttributeCount: 5
+          TextureCount: 1
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 20.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/sunshield_os2/textures/sunshield_01"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

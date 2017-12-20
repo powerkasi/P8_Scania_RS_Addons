@@ -1,0 +1,7 @@
+map 2d
+     /vehicle/truck/upgrade/tower/scania_rcab_edit/textures/treadplate_n.dds
+addr
+     repeat
+     repeat
+nocompress
+bias 1

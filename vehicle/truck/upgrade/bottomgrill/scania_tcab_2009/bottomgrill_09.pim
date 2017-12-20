@@ -1,0 +1,142 @@
+Header {
+     FormatVersion: 5
+     Source: "ConverterPIX v1.0"
+     Type: "Model"
+     Name: "bottomgrill_09"
+}
+Global {
+     VertexCount: 0
+     TriangleCount: 0
+     MaterialCount: 0
+     PieceCount: 0
+     PartCount: 1
+     BoneCount: 0
+     LocatorCount: 17
+     Skeleton: "bottomgrill_09.pis"
+}
+Part {
+     Name: "defaultpart"
+     PieceCount: 0
+     LocatorCount: 17
+     Pieces: 
+     Locators: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 
+}
+Locator {
+     Name: "slot_0"
+     Index: 0
+     Position: ( &bdf5c28e  &bdafcf08  &3e87cbe1 )
+     Rotation: ( &3f0042a8  &bf0214ae  &3efaa716  &3efe35d2 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_10"
+     Index: 1
+     Position: ( &bf4f918e  &bc5c32be  &3f000000 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_13"
+     Index: 2
+     Position: ( &3df5c28e  &bdafcf0b  &3e87cbe0 )
+     Rotation: ( &3f0102d3  &bf02d794  &3ef91b62  &3efca480 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_14"
+     Index: 3
+     Position: ( &bf8a161e  &3d6a4a8c  &3eeb851f )
+     Rotation: ( &3f37f9a2  &bc091ca0  &3f31fd52  &bc04a6a0 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_15"
+     Index: 4
+     Position: ( &3f8a161e  &3d6a4a8c  &3eeb851f )
+     Rotation: ( &bc8fe44a  &bf34f6a9  &3c8fe44a  &3f34f6a9 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_18"
+     Index: 5
+     Position: ( &3f5e4060  &bcb019e3  &3f6ff1d8 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_19"
+     Index: 6
+     Position: ( &bf5e4060  &bcb019db  &3f6ff1d8 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_1"
+     Index: 7
+     Position: ( &beb851eb  &bdae147b  &3e880136 )
+     Rotation: ( &3f035c9a  &bf0539e5  &3ef424bd  &3ef79bd3 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_20"
+     Index: 8
+     Position: ( &80000000  &bdafef0e  &3e880136 )
+     Rotation: ( &3f035c9a  &bf0539e5  &3ef424bd  &3ef79bd3 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_21"
+     Index: 9
+     Position: ( &be739b53  &bdafef0e  &3e880136 )
+     Rotation: ( &3f035c9a  &bf0539e5  &3ef424bd  &3ef79bd3 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_22"
+     Index: 10
+     Position: ( &3e739c0f  &bdafef0e  &3e880136 )
+     Rotation: ( &3f035c9a  &bf0539e5  &3ef424bd  &3ef79bd3 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_25"
+     Index: 11
+     Position: ( &3f3745d4  &bb81b86c  &3f000000 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_26"
+     Index: 12
+     Position: ( &bf3745d4  &bb81b84c  &3f000000 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_2"
+     Index: 13
+     Position: ( &3eb851eb  &bdae147b  &3e880135 )
+     Rotation: ( &3ef9f57a  &befd81af  &3f009932  &3f026c72 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_3"
+     Index: 14
+     Position: ( &bf7e1431  &bdbd1916  &3eea1bcb )
+     Rotation: ( &3f7ff9b6  &bc4c1509  &3b2a0c1c  &80000000 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_4"
+     Index: 15
+     Position: ( &3f7e0fa5  &bdd5535e  &3ee9fbe7 )
+     Rotation: ( &3f800000  &bc449ba6  &3b449ba6  &80000000 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_9"
+     Index: 16
+     Position: ( &3f4f918e  &bc5c32c6  &3f000000 )
+     Rotation: ( &3f7f68e4  &32bb4e62  &00000000  &32bb4e62 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}

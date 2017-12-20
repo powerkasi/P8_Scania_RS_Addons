@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/norski/textures/norwegian_tank_ao.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

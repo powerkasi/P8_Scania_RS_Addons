@@ -1,0 +1,135 @@
+Header {
+     FormatVersion: 5
+     Source: "ConverterPIX v1.0"
+     Type: "Model"
+     Name: "topline_high_spoiler_p8_just_slots"
+}
+Global {
+     VertexCount: 0
+     TriangleCount: 0
+     MaterialCount: 0
+     PieceCount: 0
+     PartCount: 1
+     BoneCount: 0
+     LocatorCount: 16
+     Skeleton: "topline_high_spoiler_p8_just_slots.pis"
+}
+Part {
+     Name: "defaultpart"
+     PieceCount: 0
+     LocatorCount: 16
+     Pieces: 
+     Locators: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+}
+Locator {
+     Name: "slot_0"
+     Index: 0
+     Position: ( &80000000  &3f0051ca  &bd9df4f9 )
+     Rotation: ( &bef8e524  &bf0374dd  &3f0374dd  &bef8e524 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_1"
+     Index: 1
+     Position: ( &bea8f5c3  &3eff0e6c  &bdb18b05 )
+     Rotation: ( &bf02ca42  &bf0a2800  &3ef8caf9  &beeb871f )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_27"
+     Index: 2
+     Position: ( &3f28f5c3  &3f0087f7  &be0bdbf7 )
+     Rotation: ( &bedd83d8  &bee9fdaa  &3f107a32  &bf08c62e )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_28"
+     Index: 3
+     Position: ( &3f7d70a4  &3f024bb9  &be97e012 )
+     Rotation: ( &bee2415d  &beeeff87  &3f0e69d6  &bf06d1fe )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_29"
+     Index: 4
+     Position: ( &3f749276  &bd8879c4  &3fd2ca19 )
+     Rotation: ( &bef520fd  &bf038af7  &3f0f09c4  &bee1d63d )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_2"
+     Index: 5
+     Position: ( &bf28f5c3  &3f0087f7  &be0bdbf8 )
+     Rotation: ( &bf08c62e  &bf107a32  &3ee9fdaa  &bedd83d8 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_30"
+     Index: 6
+     Position: ( &bf749276  &bd8879c4  &3fd2ca1a )
+     Rotation: ( &bee1d6d6  &bf0f0970  &3f038b50  &bef52071 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_31"
+     Index: 7
+     Position: ( &3f3c0f85  &bcdd63d8  &3fd2bef4 )
+     Rotation: ( &beedb50e  &bf083178  &3f0a9d07  &bee9a547 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_32"
+     Index: 8
+     Position: ( &bf3c0f85  &bcdd63b8  &3fd2bef5 )
+     Rotation: ( &bee9a546  &bf0a9d07  &3f083177  &beedb50d )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_33"
+     Index: 9
+     Position: ( &3efabf5c  &bc5509f0  &3fd2fb82 )
+     Rotation: ( &beebaf78  &bf096898  &3f096898  &beebaf78 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_34"
+     Index: 10
+     Position: ( &befabf5c  &bc5509f0  &3fd2fb82 )
+     Rotation: ( &beebaf78  &bf096898  &3f096898  &beebaf78 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_35"
+     Index: 11
+     Position: ( &3e7abf5d  &bb702240  &3fd2f37a )
+     Rotation: ( &beebaf78  &bf096898  &3f096898  &beebaf78 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_36"
+     Index: 12
+     Position: ( &be7abf5b  &bb702240  &3fd2f37a )
+     Rotation: ( &beebaf78  &bf096898  &3f096898  &beebaf78 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_37"
+     Index: 13
+     Position: ( &a5acf172  &bac80c00  &3fd43556 )
+     Rotation: ( &beebaf78  &bf096898  &3f096898  &beebaf78 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_3"
+     Index: 14
+     Position: ( &bf7d70a4  &3f024bb9  &be97e012 )
+     Rotation: ( &bf06d1fe  &bf0e69d6  &3eeeff87  &bee2415d )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}
+Locator {
+     Name: "slot_4"
+     Index: 15
+     Position: ( &3ea8f5c3  &3eff0e6c  &bdb18b05 )
+     Rotation: ( &beeb871f  &bef8caf9  &3f0a2800  &bf02ca42 )
+     Scale: ( &3f800000  &3f800000  &3f800000 )
+}

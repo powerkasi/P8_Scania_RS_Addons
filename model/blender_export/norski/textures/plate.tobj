@@ -1,0 +1,7 @@
+map 2d
+     /model/blender_export/norski/textures/plate.dds
+addr
+     repeat
+     repeat
+nocompress
+bias 1

@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/sunshield_os2/textures/sunshield_01.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

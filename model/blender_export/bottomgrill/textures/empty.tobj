@@ -1,0 +1,6 @@
+map 2d
+     /model/blender_export/bottomgrill/textures/empty.dds
+addr
+     clamp_to_edge
+     clamp_to_edge
+bias 2

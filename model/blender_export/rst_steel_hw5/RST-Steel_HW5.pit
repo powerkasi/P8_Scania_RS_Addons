@@ -1,0 +1,442 @@
+Header {
+     FormatVersion: 1
+     Source: "ConverterPIX v1.0"
+     Type: "Trait"
+     Name: "RST-Steel_HW5"
+}
+Global {
+     LookCount: 2
+     VariantCount: 3
+     PartCount: 3
+     MaterialCount: 4
+}
+Look {
+     Name: "default"
+     Material {
+          Alias: "mat_0000_rst-logo"
+          Effect: "eut2.dif.spec.over"
+          Flags: 0
+          AttributeCount: 0
+          TextureCount: 1
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/rst_steel_hw5/textures/rst-logo"
+          }
+     }
+     Material {
+          Alias: "mat_0001_chrome_mg"
+          Effect: "eut2.dif.spec.weight.add.env"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/vehicle/truck/upgrade/share/chrome_mg"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0002_fence_wires"
+          Effect: "eut2.dif.spec.weight.add.env.tsnmap.a"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/vehicle/truck/upgrade/share/fence_wires"
+          }
+          Texture {
+               Tag: "texture[1]:texture_nmap"
+               Value: "/vehicle/truck/upgrade/share/fence_wires_n"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0003_upg_shared"
+          Effect: "eut2.dif.spec.weight.add.env"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/vehicle/truck/upgrade/share/upg_shared"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+}
+Look {
+     Name: "color"
+     Material {
+          Alias: "mat_0000_rst-logo"
+          Effect: "eut2.dif.spec.over"
+          Flags: 0
+          AttributeCount: 0
+          TextureCount: 1
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/rst_steel_hw5/textures/rst-logo"
+          }
+     }
+     Material {
+          Alias: "mat_0001_chrome_mg"
+          Effect: "eut2.truckpaint.airbrush.altuv"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "aux[8]"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.300000 0.300000 0.300000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 0.200000 0.900000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 250.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.194176 1.194176 1.194176 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/model/blender_export/rst_steel_hw5/textures/rst_freeway_ao"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+          Texture {
+               Tag: "texture[2]:texture_paintjob"
+               Value: "/model/blender_export/rst_steel_hw5/textures/empty"
+          }
+     }
+     Material {
+          Alias: "mat_0002_fence_wires"
+          Effect: "eut2.dif.spec.weight.add.env.tsnmap.a"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 3
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/vehicle/truck/upgrade/share/fence_wires"
+          }
+          Texture {
+               Tag: "texture[1]:texture_nmap"
+               Value: "/vehicle/truck/upgrade/share/fence_wires_n"
+          }
+          Texture {
+               Tag: "texture[2]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+     Material {
+          Alias: "mat_0003_upg_shared"
+          Effect: "eut2.dif.spec.weight.add.env"
+          Flags: 0
+          AttributeCount: 7
+          TextureCount: 2
+          Attribute {
+               Format: FLOAT
+               Tag: "add_ambient"
+               Value: ( -0.250000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "diffuse"
+               Value: ( 0.500000 0.500000 0.500000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "env_factor"
+               Value: ( 0.990000 0.990000 0.990000 )
+          }
+          Attribute {
+               Format: FLOAT2
+               Tag: "fresnel"
+               Value: ( 1.000000 1.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "reflection"
+               Value: ( 0.000000 )
+          }
+          Attribute {
+               Format: FLOAT
+               Tag: "shininess"
+               Value: ( 70.000000 )
+          }
+          Attribute {
+               Format: FLOAT3
+               Tag: "specular"
+               Value: ( 1.000000 1.000000 1.000000 )
+          }
+          Texture {
+               Tag: "texture[0]:texture_base"
+               Value: "/vehicle/truck/upgrade/share/upg_shared"
+          }
+          Texture {
+               Tag: "texture[1]:texture_reflection"
+               Value: "/material/environment/vehicle_reflection"
+          }
+     }
+}
+Variant {
+     Name: "default"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+     Part {
+          Name: "v5"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+     Part {
+          Name: "v52"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}
+Variant {
+     Name: "v5"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+     Part {
+          Name: "v5"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+     Part {
+          Name: "v52"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 0 )
+          }
+     }
+}
+Variant {
+     Name: "v52"
+     Part {
+          Name: "defaultpart"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+     Part {
+          Name: "v5"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 0 )
+          }
+     }
+     Part {
+          Name: "v52"
+          AttributeCount: 1
+          Attribute {
+               Format: INT
+               Tag: "visible"
+               Value: ( 1 )
+          }
+     }
+}

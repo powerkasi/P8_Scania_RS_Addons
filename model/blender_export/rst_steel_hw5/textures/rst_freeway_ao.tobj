@@ -1,0 +1,5 @@
+map 2d
+     /model/blender_export/rst_steel_hw5/textures/rst-steel_fw_ao.dds
+addr
+     clamp_to_edge
+     clamp_to_edge

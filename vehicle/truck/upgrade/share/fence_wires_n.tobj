@@ -1,0 +1,6 @@
+map 2d
+     /vehicle/truck/upgrade/share/fence_wires_n.dds
+addr
+     repeat
+     repeat
+usage tsnormal
