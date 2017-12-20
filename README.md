@@ -14,4 +14,4 @@ FROM 1.1.4 to 1.2
 
 <b>Credits</b>
 
-SCS, RJL, GT-Mike, powerkasi(alias J.Snow)
+SCS, RJL, 50Keda, GT-Mike, powerkasi(alias J.Snow)
